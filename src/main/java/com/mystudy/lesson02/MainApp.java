@@ -1,4 +1,4 @@
-package com.mystudy.lesson02.actors;
+package com.mystudy.lesson02;
 
 public class MainApp {
 }

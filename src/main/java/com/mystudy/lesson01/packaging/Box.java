@@ -1,4 +1,4 @@
-package lesson01.packaging;
+package com.mystudy.lesson01.packaging;
 
 public class Box {
     String color;

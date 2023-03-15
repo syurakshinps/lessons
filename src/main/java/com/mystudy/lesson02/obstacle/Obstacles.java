@@ -1,2 +1,4 @@
-package com.mystudy.lesson02.obstacle;public enum Obstacles {
+package com.mystudy.lesson02.obstacle;
+
+public enum Obstacles {
 }

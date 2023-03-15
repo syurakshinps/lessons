@@ -1,6 +1,6 @@
-package lesson01;
+package com.mystudy.lesson01;
 
-import lesson01.packaging.Box;
+import com.mystudy.lesson01.packaging.Box;
 
 public class CompareAppMain {
     public static void main(String[] args) {
