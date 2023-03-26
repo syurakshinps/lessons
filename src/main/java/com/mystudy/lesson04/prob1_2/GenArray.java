@@ -1,4 +1,4 @@
-package com.mystudy.lesson04;
+package com.mystudy.lesson04.prob1_2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

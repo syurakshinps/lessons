@@ -1,6 +1,4 @@
-package com.mystudy.lesson04;
-
-import com.mystudy.lesson01.packaging.Box;
+package com.mystudy.lesson04.prob1_2;
 
 public class SwapArrayElements {
 
