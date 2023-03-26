@@ -38,9 +38,9 @@ public abstract class Box {
         return boxedFruit;
     }
 
-    public void setBoxedFruit(ArrayList<Fruit> boxedFruit) {
+/*    public void setBoxedFruit(ArrayList<Fruit> boxedFruit) {
         this.boxedFruit = boxedFruit;
-    }
+    }*/
 
     public abstract void putFruit(int number);
 
