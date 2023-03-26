@@ -23,9 +23,16 @@ public class GenArray<T> {
         return this.obj[index];
     }
 
-    public ArrayList<T> genArrayToArrayList(){
+    public ArrayList<T> genArrayToArrayList() {
         ArrayList<T> myArr = new ArrayList<>();
-        myArr.addAll(Arrays.asList(this.obj));
-        return myArr;
+        if (this.obj != null) {
+            if (myArr.addAll(Arrays.asList(this.obj))) {
+                return myArr;
+            } else {
+                throw new RuntimeException("could not convert");
+            }
+        } else {
+            throw new RuntimeException("could not convert");
+        }
     }
 }
